@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Generador de contraseñas para tus cuentas de internet"
+    />
+    <title>PASSW | HARD</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="index.min.js" defer></script>
+  </head>
+  <body>
+    <div class="background" id="background-container">
+      <header class="header">
+        <h1>Generador de contraseñas aleatorias</h1>
+      </header>
+      <div class="container-p">
+        <p>🔏Cree contraseñas seguras para sus cuentas de internet.🔏</p>
+      </div>
+      <section class="section">
+        <div class="section-container-alerts"></div>
+        <div class="section-container-passw">
+          <div class="section-container-passw-inputs">
+            <input
+              type="text"
+              id="generated_passw"
+              placeholder=")Bf}[)M3C0#300367E#i"
+              title="Contraseña generada"
+            />
+            <input
+              type="number"
+              id="passw_large"
+              title="Longitud de la contraseña"
+            />
+            <input
+              type="submit"
+              id="generated_passw_button"
+              value="GENERAR"
+              title="Generar contraseña"
+            />
+          </div>
+          <div class="section-container-passw-inputs_checks_labels">
+            <div class="label label-string">
+              <input
+                type="checkbox"
+                name="0"
+                id="string"
+                class="inputs_checks inp-string"
+                checked
+                title="Añade letras a la contraseña: ABcd"
+              />
+              <label for="string">Letras</label>
+            </div>
+            <div class="label label-number">
+              <input
+                type="checkbox"
+                name="1"
+                id="number"
+                class="inputs_checks inp-num"
+                checked
+                title="Añade números a la contraseña: 123"
+              />
+              <label for="number">Números</label>
+            </div>
+            <div class="label label-rare">
+              <input
+                type="checkbox"
+                name="2"
+                id="rare"
+                class="inputs_checks inp-character"
+                checked
+                title="Añade símbolos a la contraseña: @*="
+              />
+              <label for="rare">Símbolos</label>
+            </div>
+          </div>
+        </div>
+        <div class="section-container-card">
+          <div class="section-container-card-tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="section-container-card-card__content">
+            <div id="all_passw" class="all_passw"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
