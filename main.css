@@ -41,7 +41,7 @@ html {
 .star {
   width: 20px;
   height: 20px;
-  background-color: #039aff33;
+  background-color: #039aff33; 
   animation-name: floatUp;
 }
 
@@ -69,12 +69,11 @@ html {
 
 .container-p {
   font-size: 20px;
-  z-index: 100;
 }
 
 .section {
   display: flex;
-  width: 100%;
+  min-width: 100%;
   height: 600px;
   justify-content: space-between;
   z-index: 20;
@@ -203,7 +202,6 @@ html {
   display: flex;
   align-items: center;
   gap: 10px;
-  backdrop-filter: blur(2px);
 }
 
 .label > label {
@@ -317,6 +315,16 @@ html {
 /* empty */
 .section-container-card {
   align-self: flex-end;
+  width: 450px;
+  height: auto;
+  background-color: #011522;
+  border-radius: 8px;
+  margin: 10px;
+  user-select: none;
+  z-index: 1;
+}
+
+.section-container-card-alert {
   width: 450px;
   height: auto;
   background-color: #011522;

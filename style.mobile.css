@@ -1,0 +1,128 @@
+@media screen and (max-width: 1250px) {
+  .background {
+    height: auto;
+    overflow: visible;
+    z-index: 99999;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .section-container-card {
+    width: 600px;
+    align-self: auto;
+  }
+
+  .container-p {
+    margin: 60px 0;
+  }
+
+  .header > h1 {
+    font-size: 40px;
+  }
+
+  .section-container-alerts {
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: 0;
+  }
+
+  .section-container-card-alert {
+    min-width: 250px;
+    max-width: max-content;
+    height: auto;
+    background-color: #011522;
+    border-radius: 8px;
+    margin: 10px;
+    user-select: none;
+    z-index: 1;
+  }
+
+  .header-alert_box-parr {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header > h1 {
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .section-container-card-alert {
+    max-width: 300px;
+    height: auto;
+    background-color: #011522;
+    border-radius: 8px;
+    margin: 10px;
+    user-select: none;
+    z-index: 1;
+  }
+
+  .container-p {
+    width: max-content;
+  }
+
+  .container-p > p {
+    font-size: 12px;
+  }
+
+  #generated_passw {
+    max-width: 300px;
+    font-size: 22px;
+  }
+
+  .section-container-passw-inputs {
+    gap: 80px;
+  }
+
+  .section-container-passw-inputs_checks_labels {
+    width: max-content;
+    height: auto;
+    margin: 80px 0;
+  }
+
+  .label {
+    gap: 0;
+  }
+
+  .label > label{
+    font-size: 14px;
+  }
+
+  .section-container-card {
+    max-width: 320px;
+    margin-bottom: 40px;
+  }
+
+  #generated_passw_button:hover {
+    background-color: #011522;
+    transform: scale(1);
+  }
+
+  #generated_passw_button:active {
+    background-color: rgb(37, 152, 206);
+  }
+
+  .li_passw{
+    font-size: 12px;
+    width: 300px;
+  }
+
+  .list_passw{
+    width: max-content;
+  }
+
+  .all_passw{
+    min-width: 300px;
+    overflow: hidden;
+  }
+}
