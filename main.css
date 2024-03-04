@@ -245,6 +245,7 @@ html {
 
 .section-all_passw-ul-li-box_passw_btn_copy-passw {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -255,6 +256,7 @@ html {
   border: 1px solid #039aff;
   background-color: #039aff42;
   border-radius: 5px;
+  align-items: center;
 }
 
 .delet_passw {
